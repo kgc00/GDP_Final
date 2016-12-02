@@ -1,9 +1,9 @@
-﻿Log file open, 12/01/16 16:12:37
+﻿Log file open, 12/01/16 23:01:49
 LogInit:Display: Running engine for game: FinalProj
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1726767254) SRandInit(-1726767254).
+LogInit:Display: RandInit(300057960) SRandInit(300057960).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.101647
+LogStats: Stats thread started at 0.065147
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -139,643 +139,185 @@ LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.14
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.12.01-21.12.37:569][  0]LogInit: Selected Device Profile: [Windows]
-[2016.12.01-21.12.37:569][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.12.01-21.12.37:583][  0]LogInit: Computer: DESKTOP-EA6LNK4
-[2016.12.01-21.12.37:583][  0]LogInit: User: Kirby
-[2016.12.01-21.12.37:583][  0]LogInit: CPU Page size=65536, Cores=2
-[2016.12.01-21.12.37:583][  0]LogInit: High frequency timer resolution =2.531250 MHz
-[2016.12.01-21.12.37:583][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
-[2016.12.01-21.12.37:583][  0]LogMemory: Platform Memory Stats for Windows
-[2016.12.01-21.12.37:583][  0]LogMemory: Process Physical Memory: 263.33 MB used, 263.33 MB peak
-[2016.12.01-21.12.37:583][  0]LogMemory: Process Virtual Memory: 262.16 MB used, 262.16 MB peak
-[2016.12.01-21.12.37:583][  0]LogMemory: Physical Memory: 6751.50 MB used,  5439.59 MB free, 12191.09 MB total
-[2016.12.01-21.12.37:583][  0]LogMemory: Virtual Memory: 674.21 MB used,  5439.59 MB free, 134217728.00 MB total
-[2016.12.01-21.12.37:615][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.12.01-21.12.38:316][  0]LogD3D11RHI: D3D11 adapters:
-[2016.12.01-21.12.38:353][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M        ' (Feature Level 11_0)
-[2016.12.01-21.12.38:353][  0]LogD3D11RHI:       1996/0/6095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2016.12.01-21.12.38:359][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2016.12.01-21.12.38:360][  0]LogD3D11RHI:       128/0/6095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2016.12.01-21.12.38:361][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.12.01-21.12.38:361][  0]LogD3D11RHI:       0/0/6095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.12.01-21.12.38:361][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.12.01-21.12.38:367][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.12.01-21.12.38:367][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
-[2016.12.01-21.12.38:367][  0]LogWindows: EnumDisplayDevices:
-[2016.12.01-21.12.38:367][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2016.12.01-21.12.38:367][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2016.12.01-21.12.38:367][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2016.12.01-21.12.38:367][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2016.12.01-21.12.38:367][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M        
-[2016.12.01-21.12.38:367][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2016.12.01-21.12.38:367][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.12.01-21.12.38:367][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.12.01-21.12.38:383][  0]LogD3D11RHI: Async texture creation enabled
-[2016.12.01-21.12.38:397][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2016.12.01-21.12.38:399][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Intermediate/Shaders/WorkingDirectory/9280/).
-[2016.12.01-21.12.38:399][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kirby/AppData/Local/Temp/UnrealShaderWorkingDir/E02210D749C4940E5FA814956C3E49B8/'.
-[2016.12.01-21.12.38:399][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.12.01-21.12.41:192][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.12.01-21.12.41:252][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2016.12.01-21.12.41:308][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2016.12.01-21.12.41:368][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2016.12.01-21.12.41:424][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2016.12.01-21.12.41:481][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.12.01-21.12.41:538][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.12.01-21.12.41:595][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.12.01-21.12.41:645][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.12.01-21.12.41:700][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.12.01-21.12.41:756][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.12.01-21.12.41:812][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.12.01-21.12.41:872][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.12.01-21.12.41:929][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.12.01-21.12.41:983][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.12.01-21.12.42:093][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.12.01-21.12.42:093][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.12.01-21.12.42:133][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.12.01-21.12.42:223][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.12.01-21.12.42:259][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.12.01-21.12.42:314][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2016.12.01-21.12.42:370][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.12.01-21.12.42:424][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.12.01-21.12.42:480][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.12.01-21.12.42:480][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.12.01-21.12.42:890][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.12.01-21.12.42:967][  0]LogDerivedDataCache: Loaded boot cache 0.08s 64MB C:/Users/Kirby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2016.12.01-21.12.42:967][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kirby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2016.12.01-21.12.42:967][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.12.01-21.12.42:967][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.12.01-21.12.42:967][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.12.01-21.12.42:967][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.12.01-21.12.42:986][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.12.01-21.12.42:999][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kirby/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.12.01-21.12.43:220][  0]LogInit: Selected Device Profile: [Windows]
-[2016.12.01-21.12.43:222][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.12.01-21.12.43:442][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2016.12.01-21.12.43:485][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2016.12.01-21.12.43:534][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2016.12.01-21.12.43:534][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2016.12.01-21.12.43:534][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.12.01-21.12.44:137][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: finalproj, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 502500933
-[2016.12.01-21.12.44:193][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
-[2016.12.01-21.12.44:268][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.046581 seconds
-[2016.12.01-21.12.44:277][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2016.12.01-21.12.44:277][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
-[2016.12.01-21.12.44:277][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.12.01-21.12.44:348][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.12.01-21.12.45:220][  0]LogSlate: Using Freetype 2.6.0
-[2016.12.01-21.12.45:221][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.12.01-21.12.45:221][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.12.01-21.12.46:141][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.12.01-21.12.46:171][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2016.12.01-21.12.46:213][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.12.01-21.12.46:526][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.12.01-21.12.46:920][  0]SourceControl: Info Source control is disabled
-[2016.12.01-21.12.46:921][  0]SourceControl: Info Source control is disabled
-[2016.12.01-21.12.46:969][  0]SourceControl: Info Source control is disabled
-[2016.12.01-21.12.47:015][  0]SourceControl: Info Source control is disabled
-[2016.12.01-21.12.48:336][  0]LogEngine: Initializing Engine...
-[2016.12.01-21.12.48:336][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.12.01-21.12.48:597][  0]LogAIModule: Creating AISystem for world Untitled
-[2016.12.01-21.12.48:603][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.01-21.12.48:651][  0]LogInit: FAudioDevice initialized.
-[2016.12.01-21.12.48:692][  0]LogDerivedDataCache: Saved boot cache 0.04s 64MB C:/Users/Kirby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2016.12.01-21.12.48:700][  0]LogInit: Texture streaming: Enabled
-[2016.12.01-21.12.48:893][  0]LogInit: Transaction tracking system initialized
-[2016.12.01-21.12.49:266][  0]BlueprintLog: New page: Editor Load
-[2016.12.01-21.12.50:192][  0]LocalizationService: Info Localization service is disabled
-[2016.12.01-21.12.50:882][  0]LogConsoleResponse:Display: 
-[2016.12.01-21.12.51:039][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2016.12.01-21.12.51:039][  0]LogCook:Display: Mobile HDR setting 1
-[2016.12.01-21.12.51:393][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Content/' took 0.02s
-[2016.12.01-21.12.52:052][  0]SourceControl: Info Source control is disabled
-[2016.12.01-21.12.52:052][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.12.01-21.12.52:053][  0]LightingResults: New page: Lighting Build
-[2016.12.01-21.12.52:096][  0]MapCheck: New page: Map Check
-[2016.12.01-21.12.52:096][  0]LightingResults: New page: Lighting Build
-[2016.12.01-21.12.52:517][  0]LogTexture:Display: Building textures: main_Char_B (BGRA8)
-[2016.12.01-21.12.52:543][  0]LogTexture:Display: Building textures: char_R (BGRA8)
-[2016.12.01-21.12.52:590][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2016.12.01-21.12.53:211][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2016.12.01-21.12.53:388][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2016.12.01-21.12.53:407][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2016.12.01-21.12.53:579][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2016.12.01-21.12.53:636][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2016.12.01-21.12.53:650][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
-[2016.12.01-21.12.53:936][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
-[2016.12.01-21.12.54:004][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
-[2016.12.01-21.12.54:015][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
-[2016.12.01-21.12.54:106][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
-[2016.12.01-21.12.54:108][  0]LogTexture:Display: Building textures: dR_tsp (BGRA8)
-[2016.12.01-21.12.54:114][  0]LogTexture:Display: Building textures: dg_tsp (BGRA8)
-[2016.12.01-21.12.54:120][  0]LogTexture:Display: Building textures: dB_tsp (BGRA8)
-[2016.12.01-21.12.54:195][  0]LogTexture:Display: Building textures: main_Char_G (BGRA8)
-[2016.12.01-21.12.54:303][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.12.01-21.12.54:318][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.12.01-21.12.54:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.12.01-21.12.54:359][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.168ms to complete.
-[2016.12.01-21.12.54:359][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.307
-[2016.12.01-21.12.54:437][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.12.01-21.12.54:438][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.12.01-21.12.54:617][  0]LogCollectionManager: Loaded 0 collections in 0.002190 seconds
-[2016.12.01-21.12.54:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Saved/Collections/' took 0.02s
-[2016.12.01-21.12.54:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Content/Developers/Kirby/Collections/' took 0.01s
-[2016.12.01-21.12.54:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Content/Collections/' took 0.01s
-[2016.12.01-21.12.54:750][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
-[2016.12.01-21.12.54:768][  0]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2205 classes and 434 folders.
-[2016.12.01-21.12.54:817][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.12.01-21.12.54:817][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.12.01-21.12.54:818][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
-[2016.12.01-21.12.54:885][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2016.12.01-21.12.55:118][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2016.12.01-21.12.55:189][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2016.12.01-21.12.55:315][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.12.01-21.12.55:348][  0]LogTexture:Display: Building textures: Blueprint_64x (BGRA8)
-[2016.12.01-21.12.55:350][  0]LogTexture:Display: Building textures: icon_Editor_Preferences_General_40x (BGRA8)
-[2016.12.01-21.12.55:353][  0]LogTexture:Display: Building textures: Paper2DSprite_TutorialIcon (BGRA8)
-[2016.12.01-21.12.55:355][  0]LogTexture:Display: Building textures: icon_ShowSkeletalMeshes_40x (BGRA8)
-[2016.12.01-21.12.55:357][  0]LogTexture:Display: Building textures: Landscape (BGRA8)
-[2016.12.01-21.12.55:359][  0]LogTexture:Display: Building textures: Foliage (BGRA8)
-[2016.12.01-21.12.55:486][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.12.01-21.12.55:486][  0]LogLoad: (Engine Initialization) Total time: 19.65 seconds
-[2016.12.01-21.12.55:486][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.25 seconds
-[2016.12.01-21.12.55:486][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2016.12.01-21.12.55:509][  0]LogOcInput: OculusInput pre-init called
-[2016.12.01-21.12.55:542][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.12.01-21.12.55:582][  0]LogTexture:Display: Building textures: icon_tab_Levels_40x (BGRA8)
-[2016.12.01-21.12.55:672][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
-[2016.12.01-21.12.55:798][  2]LogRenderer: Reallocating scene render targets to support 796x328 NumSamples 1 (Frame:2).
-[2016.12.01-21.12.56:001][  2]LogAssetRegistry: Asset discovery search completed in 11.8300 seconds
-[2016.12.01-21.12.56:001][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2016.12.01-21.12.56:001][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
-[2016.12.01-21.13.06:686][598]LogRenderer: Reallocating scene render targets to support 804x340 NumSamples 1 (Frame:428).
-[2016.12.01-21.13.33:336][293]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Kirby\Documents\Game Design\bob_R.png)
-[2016.12.01-21.13.33:345][293]LogTexture:Display: Building textures: bob_R (AutoDXT)
-[2016.12.01-21.13.38:279][545]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.14.09:453][355]LogTexture:Display: Building textures: Paper2DFlipbook_TutorialIcon (BGRA8)
-[2016.12.01-21.14.23:056][  8]LogEditorViewport: Clicking on Actor (LMB): BP_RedEntrance_C (RedEntrance)
-[2016.12.01-21.18.55:678][286]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.18.55:678][286]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.18.55:681][286]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.18.55:690][286]LogEditorFactories: -- imported successfully
-[2016.12.01-21.19.38:506][621]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.19.38:506][621]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.19.38:508][621]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.19.38:514][621]LogEditorFactories: -- imported successfully
-[2016.12.01-21.20.02:454][129]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.20.02:454][129]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.20.02:457][129]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.20.02:464][129]LogEditorFactories: -- imported successfully
-[2016.12.01-21.20.50:944][698]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.20.50:944][698]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.20.50:947][698]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.20.50:955][698]LogEditorFactories: -- imported successfully
-[2016.12.01-21.21.19:620][395]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (bob_R2)
-[2016.12.01-21.21.27:834][885]LogEditorViewport: Clicking on Actor (LMB): BP_RedEntrance_C (RedEntrance)
-[2016.12.01-21.22.56:558][724]LogSavePackage: Save=105.25ms
-[2016.12.01-21.22.56:558][724]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/ThirdPersonExampleMap_Auto1C9DF7AFD4EC8FE4045AB3F84777A1863.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2016.12.01-21.22.56:561][724]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
-[2016.12.01-21.22.56:567][724]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.169
-[2016.12.01-21.22.56:567][724]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.169
-[2016.12.01-21.22.56:570][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Characters/bob_R] ([1] browsable assets)...
-[2016.12.01-21.22.56:573][724]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Characters/bob_R.bob_R]
-[2016.12.01-21.22.56:573][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Characters/bob_R]
-[2016.12.01-21.22.56:580][724]LogSavePackage: Save=4.73ms
-[2016.12.01-21.22.56:580][724]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/bob_R_Auto1CA2484734D8283673337D4AEF9F9E4F4.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/Autosaves/Game/Assets/Characters/bob_R_Auto1.uasset'
-[2016.12.01-21.22.56:583][724]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/Autosaves/Game/Assets/Characters/bob_R_Auto1.uasset
-[2016.12.01-21.22.56:584][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Characters/bob_R_Sprite_0] ([1] browsable assets)...
-[2016.12.01-21.22.56:594][724]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Characters/bob_R_Sprite_0.bob_R_Sprite_0]
-[2016.12.01-21.22.56:594][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Characters/bob_R_Sprite_0]
-[2016.12.01-21.22.56:601][724]LogSavePackage: Save=5.02ms
-[2016.12.01-21.22.56:601][724]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/bob_R_Sprite_0_Auto113E3F4924F7F512BC8972196C52FA6FA.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/Autosaves/Game/Assets/Characters/bob_R_Sprite_0_Auto1.uasset'
-[2016.12.01-21.22.56:604][724]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/Autosaves/Game/Assets/Characters/bob_R_Sprite_0_Auto1.uasset
-[2016.12.01-21.22.56:606][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Characters/bob_R_Sprite_1] ([1] browsable assets)...
-[2016.12.01-21.22.56:615][724]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Characters/bob_R_Sprite_1.bob_R_Sprite_1]
-[2016.12.01-21.22.56:615][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Characters/bob_R_Sprite_1]
-[2016.12.01-21.22.56:622][724]LogSavePackage: Save=5.41ms
-[2016.12.01-21.22.56:622][724]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/bob_R_Sprite_1_Auto1D0158B104108FAF9AFF13BAE2461039B.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/Autosaves/Game/Assets/Characters/bob_R_Sprite_1_Auto1.uasset'
-[2016.12.01-21.22.56:625][724]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/Autosaves/Game/Assets/Characters/bob_R_Sprite_1_Auto1.uasset
-[2016.12.01-21.22.56:626][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Characters/bob_R2] ([1] browsable assets)...
-[2016.12.01-21.22.56:636][724]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Assets/Characters/bob_R2.bob_R2]
-[2016.12.01-21.22.56:636][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Characters/bob_R2]
-[2016.12.01-21.22.56:643][724]LogSavePackage: Save=4.53ms
-[2016.12.01-21.22.56:643][724]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/bob_R2_Auto10D9620A34CC1B0C4BF039785325FE050.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/Autosaves/Game/Assets/Characters/bob_R2_Auto1.uasset'
-[2016.12.01-21.22.56:645][724]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/Autosaves/Game/Assets/Characters/bob_R2_Auto1.uasset
-[2016.12.01-21.22.56:645][724]LogFileHelpers: Auto-saving content packages took 0.077
-[2016.12.01-21.23.31:796][ 11]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.23.31:796][ 11]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.23.31:798][ 11]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.23.31:808][ 11]LogEditorFactories: -- imported successfully
-[2016.12.01-21.24.06:781][917]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.24.06:781][917]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.24.06:785][917]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.24.06:791][917]LogEditorFactories: -- imported successfully
-[2016.12.01-21.24.27:952][513]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.24.27:952][513]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.24.27:956][513]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.24.27:960][513]LogEditorFactories: -- imported successfully
-[2016.12.01-21.25.22:726][998]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.25.22:727][998]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.25.22:729][998]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.25.22:736][998]LogEditorFactories: -- imported successfully
-[2016.12.01-21.26.11:762][405]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.26.11:763][405]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.26.11:765][405]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.26.11:774][405]LogEditorFactories: -- imported successfully
-[2016.12.01-21.27.01:519][273]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.27.01:519][273]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.27.01:524][273]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.27.01:530][273]LogEditorFactories: -- imported successfully
-[2016.12.01-21.27.33:875][197]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.27.33:875][197]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.27.33:877][197]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.27.33:882][197]LogEditorFactories: -- imported successfully
-[2016.12.01-21.27.53:443][359]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.01-21.27.53:459][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.27.53:461][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.01-21.27.53:465][359]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2016, 11:27:53 AM)
-[2016.12.01-21.27.53:466][359]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2016.12.01-21.27.53:472][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005846s)
-[2016.12.01-21.27.53:473][359]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.12.01-21.27.53:473][359]LogPlayLevel: PIE: World Init took: (0.001633s)
-[2016.12.01-21.27.53:474][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008527s)
-[2016.12.01-21.27.53:497][359]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.01-21.27.53:511][359]LogInit: FAudioDevice initialized.
-[2016.12.01-21.27.53:573][359]LogLoad: Game class is 'TestGameMode_C'
-[2016.12.01-21.27.53:590][359]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.12.01-16.27.53
-[2016.12.01-21.27.53:609][359]LogWorld: Bringing up level for play took: 0.021246
-[2016.12.01-21.27.53:676][359]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2016.12.01-21.27.53:690][359]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.703
-[2016.12.01-21.27.53:690][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.28.48:376][632]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.28.48:434][632]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.28.56:286][ 67]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
-[2016.12.01-21.28.57:030][ 67]LogTexture:Display: Building textures: TilePatine_N (BC5)
-[2016.12.01-21.28.57:093][ 67]LogTexture:Display: Building textures: TilePatine_D (AutoDXT)
-[2016.12.01-21.30.21:202][  5]LogRenderer: Reallocating scene render targets to support 804x540 NumSamples 1 (Frame:26481).
-[2016.12.01-21.30.23:648][140]LogRenderer: Reallocating scene render targets to support 1016x540 NumSamples 1 (Frame:26716).
-[2016.12.01-21.30.25:101][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Characters/bob_R2" FILE="../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R2.uasset" SILENT=true
-[2016.12.01-21.30.25:113][221]LogSavePackage: Save=6.81ms
-[2016.12.01-21.30.25:113][221]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/bob_R2E536FFED4C99DDEB49E11DB4E2953801.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R2.uasset'
-[2016.12.01-21.30.25:118][221]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R2.uasset
-[2016.12.01-21.31.45:332][905]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.01-21.31.45:360][905]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.31.45:361][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.01-21.31.45:361][905]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2016, 11:31:45 AM)
-[2016.12.01-21.31.45:361][905]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2016.12.01-21.31.45:364][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002610s)
-[2016.12.01-21.31.45:365][905]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.12.01-21.31.45:365][905]LogPlayLevel: PIE: World Init took: (0.000821s)
-[2016.12.01-21.31.45:365][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.003687s)
-[2016.12.01-21.31.45:405][905]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.01-21.31.45:415][905]LogInit: FAudioDevice initialized.
-[2016.12.01-21.31.45:460][905]LogLoad: Game class is 'TestGameMode_C'
-[2016.12.01-21.31.45:466][905]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.12.01-16.31.45
-[2016.12.01-21.31.45:467][905]LogWorld: Bringing up level for play took: 0.005267
-[2016.12.01-21.31.45:471][905]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.484
-[2016.12.01-21.31.45:472][905]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.31.54:372][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.31.54:425][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.31.55:198][401]LogEditorViewport: Clicking on Actor (LMB): BP_RedEntrance_C (RedEntrance)
-[2016.12.01-21.32.01:045][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.32.01:045][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.01-21.32.01:045][748]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2016, 11:32:01 AM)
-[2016.12.01-21.32.01:045][748]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2016.12.01-21.32.01:050][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005166s)
-[2016.12.01-21.32.01:051][748]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.12.01-21.32.01:051][748]LogPlayLevel: PIE: World Init took: (0.000695s)
-[2016.12.01-21.32.01:051][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.006141s)
-[2016.12.01-21.32.01:089][748]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.01-21.32.01:098][748]LogInit: FAudioDevice initialized.
-[2016.12.01-21.32.01:154][748]LogLoad: Game class is 'TestGameMode_C'
-[2016.12.01-21.32.01:162][748]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.12.01-16.32.01
-[2016.12.01-21.32.01:163][748]LogWorld: Bringing up level for play took: 0.006686
-[2016.12.01-21.32.01:185][748]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.198
-[2016.12.01-21.32.01:186][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.32.01:226][748]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:32319).
-[2016.12.01-21.32.12:203][339]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.32.12:339][339]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.32.15:293][497]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.32.15:293][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.01-21.32.15:293][497]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2016, 11:32:15 AM)
-[2016.12.01-21.32.15:293][497]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2016.12.01-21.32.15:296][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002784s)
-[2016.12.01-21.32.15:296][497]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.12.01-21.32.15:297][497]LogPlayLevel: PIE: World Init took: (0.000657s)
-[2016.12.01-21.32.15:297][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.003718s)
-[2016.12.01-21.32.15:336][497]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.01-21.32.15:345][497]LogInit: FAudioDevice initialized.
-[2016.12.01-21.32.15:378][497]LogLoad: Game class is 'TestGameMode_C'
-[2016.12.01-21.32.15:380][497]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.12.01-16.32.15
-[2016.12.01-21.32.15:381][497]LogWorld: Bringing up level for play took: 0.001883
-[2016.12.01-21.32.15:382][497]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.395
-[2016.12.01-21.32.15:382][497]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.32.27:263][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.32.27:315][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.12.01-21.32.31:756][461]LogSavePackage: Save=98.24ms
-[2016.12.01-21.32.31:756][461]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/ThirdPersonExampleMap101074684DE1C3B640074C99EC32DA09.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2016.12.01-21.32.31:762][461]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2016.12.01-21.32.32:174][461]LogSavePackage: Save=371.52ms
-[2016.12.01-21.32.32:174][461]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/ThirdPersonExampleMap_BuiltDataF8553F8B4E1729053D7732955DEC4FDB.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2016.12.01-21.32.32:177][461]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2016.12.01-21.33.43:465][294]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.33.43:465][294]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.33.43:468][294]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.33.43:476][294]LogEditorFactories: -- imported successfully
-[2016.12.01-21.34.22:564][475]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
-[2016.12.01-21.34.22:564][475]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
-[2016.12.01-21.34.22:567][475]LogTexture:Display: Building textures: bob_R (BGRA8)
-[2016.12.01-21.34.22:576][475]LogEditorFactories: -- imported successfully
-[2016.12.01-21.34.27:100][722]LogSavePackage: Save=100.29ms
-[2016.12.01-21.34.27:100][722]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/ThirdPersonExampleMap195E838B497DF39B151249A5807238EF.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2016.12.01-21.34.27:102][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2016.12.01-21.34.27:506][722]LogSavePackage: Save=364.80ms
-[2016.12.01-21.34.27:506][722]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/ThirdPersonExampleMap_BuiltDataE21BFDBE44F499118CCE64B5806B78D3.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2016.12.01-21.34.27:510][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2016.12.01-21.34.29:060][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Characters/bob_R" FILE="../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R.uasset" SILENT=true
-[2016.12.01-21.34.29:064][799]LogSavePackage: Save=2.17ms
-[2016.12.01-21.34.29:064][799]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/bob_RC9EBCA764DD24BB262ED6BBD51363494.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R.uasset'
-[2016.12.01-21.34.29:069][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R.uasset
-[2016.12.01-21.34.29:087][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Characters/bob_R_Sprite_0" FILE="../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R_Sprite_0.uasset" SILENT=true
-[2016.12.01-21.34.29:095][799]LogSavePackage: Save=5.52ms
-[2016.12.01-21.34.29:095][799]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/bob_R_Sprite_0978A42DD480274D75693079E20142F1B.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R_Sprite_0.uasset'
-[2016.12.01-21.34.29:099][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R_Sprite_0.uasset
-[2016.12.01-21.34.29:115][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Characters/bob_R_Sprite_1" FILE="../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R_Sprite_1.uasset" SILENT=true
-[2016.12.01-21.34.29:124][799]LogSavePackage: Save=5.00ms
-[2016.12.01-21.34.29:124][799]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/bob_R_Sprite_1F138F24040763C39439D5DA07282059F.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R_Sprite_1.uasset'
-[2016.12.01-21.34.29:129][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R_Sprite_1.uasset
-[2016.12.01-22.50.20:186][976]Cmd: QUIT_EDITOR
-[2016.12.01-22.50.20:603][976]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.12.01-22.50.20:603][976]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.12.01-22.50.20:650][976]LogExit: Preparing to exit.
-[2016.12.01-22.50.21:368][976]LogDirectoryWatcher: A directory notification for 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Content/' was aborted.
-[2016.12.01-22.50.21:525][976]LogExit: Editor shut down
-[2016.12.01-22.50.21:526][976]LogExit: Transaction tracking system shut down
-[2016.12.01-22.50.21:808][976]LogObj: Freed 0b from 0 cluster array pools.
-[2016.12.01-22.50.21:809][976]LogExit: Object subsystem successfully closed.
-[2016.12.01-22.50.21:834][976]LogD3D11RHI: Shutdown
-[2016.12.01-22.50.21:834][976]LogD3D11RHI: CleanupD3DDevice
-[2016.12.01-22.50.21:977][976]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.12.01-22.50.22:003][976]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2016.12.01-22.50.22:003][976]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFB9173AF-4431-99ED-7125-3DB9D5B8C5E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.0-3195953%2B%2B%2BUE4%2BRelease-4.14&UserID=a365578848ffff31de0350830b4ec3f5%7C5014bbd6fc224a509b21884e30cffd14%7C1de90a8e-694b-4812-91a2-8c8c990a72ea&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2016.12.01-22.50.22:019][976]LogModuleManager: Shutting down and abandoning module SequencerWidgets (247)
-[2016.12.01-22.50.22:019][976]LogModuleManager: Shutting down and abandoning module BlueprintGraph (246)
-[2016.12.01-22.50.22:019][976]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (245)
-[2016.12.01-22.50.22:021][976]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (244)
-[2016.12.01-22.50.22:021][976]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (243)
-[2016.12.01-22.50.22:021][976]LogModuleManager: Shutting down and abandoning module CrashTracker (242)
-[2016.12.01-22.50.22:021][976]LogModuleManager: Shutting down and abandoning module SceneOutliner (241)
-[2016.12.01-22.50.22:021][976]LogModuleManager: Shutting down and abandoning module WidgetCarousel (240)
-[2016.12.01-22.50.22:021][976]LogModuleManager: Shutting down and abandoning module AddContentDialog (239)
-[2016.12.01-22.50.22:022][976]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
-[2016.12.01-22.50.22:030][976]LogModuleManager: Shutting down and abandoning module GameplayTags (238)
-[2016.12.01-22.50.22:030][976]LogModuleManager: Shutting down and abandoning module EditorWidgets (237)
-[2016.12.01-22.50.22:030][976]LogModuleManager: Shutting down and abandoning module CollectionManager (236)
-[2016.12.01-22.50.22:030][976]LogDirectoryWatcher: A directory notification for 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Content/Collections/' was aborted.
-[2016.12.01-22.50.22:030][976]LogDirectoryWatcher: A directory notification for 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Content/Developers/Kirby/Collections/' was aborted.
-[2016.12.01-22.50.22:030][976]LogDirectoryWatcher: A directory notification for 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Saved/Collections/' was aborted.
-[2016.12.01-22.50.22:030][976]LogModuleManager: Shutting down and abandoning module StatsViewer (235)
-[2016.12.01-22.50.22:030][976]LogModuleManager: Shutting down and abandoning module FoliageEdit (234)
-[2016.12.01-22.50.22:030][976]LogModuleManager: Shutting down and abandoning module LandscapeEditor (233)
-[2016.12.01-22.50.22:030][976]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (232)
-[2016.12.01-22.50.22:030][976]LogModuleManager: Shutting down and abandoning module ActorPickerMode (231)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module GeometryMode (230)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module TextureAlignMode (229)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module BspMode (228)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module HardwareSurvey (227)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (226)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module AutomationWorker (225)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (224)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module PlacementMode (223)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (222)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (221)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (220)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (219)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (218)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module Media (217)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (216)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (215)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module CharacterAI (214)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module SequenceRecorder (213)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module AudioCapture (212)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module SmartSnapping (211)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module SessionServices (210)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module ViewportSnapping (209)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module ViewportInteraction (208)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module LogVisualizer (207)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (206)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module IntroTutorials (205)
-[2016.12.01-22.50.22:031][976]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (204)
-[2016.12.01-22.50.22:032][976]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (203)
-[2016.12.01-22.50.22:032][976]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (202)
-[2016.12.01-22.50.22:032][976]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (201)
-[2016.12.01-22.50.22:541][976]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (200)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (199)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (198)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module InputBindingEditor (197)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module NiagaraEditor (196)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module MergeActors (195)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module SizeMap (194)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module TreeMap (193)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module ReferenceViewer (192)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module LocalizationService (191)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (190)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module HardwareTargeting (189)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (188)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module UndoHistory (187)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module UserFeedback (186)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module XmlParser (185)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module Blutility (184)
-[2016.12.01-22.50.22:542][976]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (183)
-[2016.12.01-22.50.22:543][976]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (182)
-[2016.12.01-22.50.22:543][976]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (181)
-[2016.12.01-22.50.22:543][976]LogModuleManager: Shutting down and abandoning module SettingsEditor (180)
-[2016.12.01-22.50.22:543][976]LogModuleManager: Shutting down and abandoning module ProjectLauncher (179)
-[2016.12.01-22.50.22:543][976]LogModuleManager: Shutting down and abandoning module SessionFrontend (178)
-[2016.12.01-22.50.22:543][976]LogModuleManager: Shutting down and abandoning module ProfilerClient (177)
-[2016.12.01-22.50.22:543][976]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (176)
-[2016.12.01-22.50.22:543][976]LogModuleManager: Shutting down and abandoning module DeviceManager (175)
-[2016.12.01-22.50.22:585][976]LogModuleManager: Shutting down and abandoning module AutomationController (174)
-[2016.12.01-22.50.22:586][976]LogModuleManager: Shutting down and abandoning module AutomationWindow (173)
-[2016.12.01-22.50.22:586][976]LogModuleManager: Shutting down and abandoning module Layers (172)
-[2016.12.01-22.50.22:587][976]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (171)
-[2016.12.01-22.50.22:587][976]LogModuleManager: Shutting down and abandoning module DetailCustomizations (170)
-[2016.12.01-22.50.22:587][976]LogModuleManager: Shutting down and abandoning module PackagesDialog (169)
-[2016.12.01-22.50.22:589][976]LogModuleManager: Shutting down and abandoning module AnimGraph (168)
-[2016.12.01-22.50.22:589][976]LogModuleManager: Shutting down and abandoning module Persona (167)
-[2016.12.01-22.50.22:589][976]LogModuleManager: Shutting down and abandoning module Kismet (166)
-[2016.12.01-22.50.22:600][976]LogModuleManager: Shutting down and abandoning module GraphEditor (165)
-[2016.12.01-22.50.22:600][976]LogModuleManager: Shutting down and abandoning module ClassViewer (164)
-[2016.12.01-22.50.22:600][976]LogModuleManager: Shutting down and abandoning module Toolbox (163)
-[2016.12.01-22.50.22:600][976]LogModuleManager: Shutting down and abandoning module ModuleUI (162)
-[2016.12.01-22.50.22:600][976]LogModuleManager: Shutting down and abandoning module MovieSceneTools (161)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module OutputLog (160)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module GammaUI (159)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module Documentation (158)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module Niagara (157)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (156)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module AnalyticsET (155)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module PortalServices (154)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module PortalRpc (153)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module MessagingRpc (152)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module GameplayDebugger (151)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module AITestSuite (150)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module AIModule (149)
-[2016.12.01-22.50.22:601][976]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module TaskGraph (147)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module SubstanceEditor (146)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module SteamVR (143)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module OculusInput (139)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module CableComponent (136)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
-[2016.12.01-22.50.22:663][976]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
-[2016.12.01-22.50.22:664][976]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
-[2016.12.01-22.50.22:664][976]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
-[2016.12.01-22.50.22:664][976]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
-[2016.12.01-22.50.22:664][976]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
-[2016.12.01-22.50.22:664][976]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
-[2016.12.01-22.50.22:665][976]LogModuleManager: Shutting down and abandoning module SourceControl (116)
-[2016.12.01-22.50.22:665][976]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
-[2016.12.01-22.50.22:665][976]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
-[2016.12.01-22.50.22:665][976]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
-[2016.12.01-22.50.22:665][976]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
-[2016.12.01-22.50.22:665][976]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
-[2016.12.01-22.50.22:665][976]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
-[2016.12.01-22.50.22:665][976]LogModuleManager: Shutting down and abandoning module HotReload (109)
-[2016.12.01-22.50.22:666][976]LogModuleManager: Shutting down and abandoning module MainFrame (108)
-[2016.12.01-22.50.22:666][976]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
-[2016.12.01-22.50.22:670][976]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
-[2016.12.01-22.50.22:675][976]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
-[2016.12.01-22.50.22:675][976]LogModuleManager: Shutting down and abandoning module UdpMessaging (104)
-[2016.12.01-22.50.22:775][976]LogModuleManager: Shutting down and abandoning module TcpMessaging (103)
-[2016.12.01-22.50.22:875][976]LogModuleManager: Shutting down and abandoning module SubstanceCore (102)
-[2016.12.01-22.50.22:875][976]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
-[2016.12.01-22.50.22:875][976]LogModuleManager: Shutting down and abandoning module Paper2D (100)
-[2016.12.01-22.50.22:875][976]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
-[2016.12.01-22.50.22:875][976]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
-[2016.12.01-22.50.22:875][976]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
-[2016.12.01-22.50.22:875][976]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2016.12.01-22.50.22:875][976]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
-[2016.12.01-22.50.22:875][976]LogModuleManager: Shutting down and abandoning module VREditor (94)
-[2016.12.01-22.50.22:875][976]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module Sequencer (89)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module MessageLog (87)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module AssetTools (86)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module UMG (84)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module Slate (82)
-[2016.12.01-22.50.22:876][976]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
-[2016.12.01-22.50.22:880][976]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
-[2016.12.01-22.50.22:880][976]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
-[2016.12.01-22.50.22:880][976]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
-[2016.12.01-22.50.22:880][976]LogModuleManager: Shutting down and abandoning module Networking (76)
-[2016.12.01-22.50.22:880][976]LogModuleManager: Shutting down and abandoning module Core (75)
-[2016.12.01-22.50.22:880][976]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
-[2016.12.01-22.50.22:880][976]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2016.12.01-22.50.22:882][976]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/' was aborted.
-[2016.12.01-22.50.22:882][976]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2016.12.01-22.50.22:887][976]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
-[2016.12.01-22.50.23:191][976]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
-[2016.12.01-22.50.23:191][976]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
-[2016.12.01-22.50.23:191][976]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
-[2016.12.01-22.50.23:191][976]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
-[2016.12.01-22.50.23:191][976]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
-[2016.12.01-22.50.23:191][976]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
-[2016.12.01-22.50.23:191][976]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2016.12.01-22.50.23:191][976]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2016.12.01-22.50.23:285][976]LogDerivedDataCache: Shutdown
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2016.12.01-22.50.23:285][976]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
-[2016.12.01-22.50.23:286][976]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
-[2016.12.01-22.50.23:287][976]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
-[2016.12.01-22.50.23:287][976]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2016.12.01-22.50.23:287][976]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2016.12.01-22.50.23:287][976]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2016.12.01-22.50.23:287][976]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2016.12.01-22.50.23:287][976]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2016.12.01-22.50.23:287][976]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2016.12.01-22.50.23:287][976]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2016.12.01-22.50.23:287][976]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2016.12.01-22.50.23:287][976]LogOnline:Display: Unloading online subsystem: NULL
-[2016.12.01-22.50.23:287][976]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2016.12.01-22.50.23:289][976]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2016.12.01-22.50.23:289][976]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2016.12.01-22.50.23:289][976]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.12.01-22.50.23:290][976]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.12.01-22.50.23:290][976]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.12.01-22.50.23:290][976]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.12.01-22.50.23:308][976]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.12.01-22.50.23:308][976]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.12.01-22.50.23:308][976]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.12.01-22.50.23:308][976]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.12.01-22.50.23:308][976]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.12.01-22.50.23:308][976]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.12.01-22.50.23:308][976]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.12.01-22.50.23:308][976]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.12.01-22.50.23:308][976]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.12.01-22.50.23:308][976]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.12.01-22.50.23:310][976]LogExit: Exiting.
-[2016.12.01-22.50.23:334][976]Log file closed, 12/01/16 17:50:23
+[2016.12.02-04.01.49:791][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.02-04.01.49:791][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.02-04.01.49:808][  0]LogInit: Computer: DESKTOP-EA6LNK4
+[2016.12.02-04.01.49:808][  0]LogInit: User: Kirby
+[2016.12.02-04.01.49:808][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.12.02-04.01.49:808][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2016.12.02-04.01.49:809][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2016.12.02-04.01.49:809][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.02-04.01.49:809][  0]LogMemory: Process Physical Memory: 263.39 MB used, 263.39 MB peak
+[2016.12.02-04.01.49:809][  0]LogMemory: Process Virtual Memory: 262.19 MB used, 262.19 MB peak
+[2016.12.02-04.01.49:809][  0]LogMemory: Physical Memory: 4002.97 MB used,  8188.12 MB free, 12191.09 MB total
+[2016.12.02-04.01.49:809][  0]LogMemory: Virtual Memory: 674.21 MB used,  8188.12 MB free, 134217728.00 MB total
+[2016.12.02-04.01.50:032][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.02-04.01.51:063][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.02-04.01.51:101][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M        ' (Feature Level 11_0)
+[2016.12.02-04.01.51:101][  0]LogD3D11RHI:       1996/0/6095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.02-04.01.51:110][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2016.12.02-04.01.51:110][  0]LogD3D11RHI:       128/0/6095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.12.02-04.01.51:122][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.02-04.01.51:122][  0]LogD3D11RHI:       0/0/6095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.02-04.01.51:122][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.02-04.01.51:130][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.02-04.01.51:130][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.02-04.01.51:130][  0]LogWindows: EnumDisplayDevices:
+[2016.12.02-04.01.51:130][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2016.12.02-04.01.51:130][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2016.12.02-04.01.51:130][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2016.12.02-04.01.51:130][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.12.02-04.01.51:130][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M        
+[2016.12.02-04.01.51:130][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.12.02-04.01.51:130][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.12.02-04.01.51:131][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.02-04.01.51:148][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.02-04.01.51:206][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.12.02-04.01.51:222][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Intermediate/Shaders/WorkingDirectory/18296/).
+[2016.12.02-04.01.51:222][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kirby/AppData/Local/Temp/UnrealShaderWorkingDir/EA1DACFC48B5848575CD708BF04763C3/'.
+[2016.12.02-04.01.51:222][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.02-04.01.52:703][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.02-04.01.52:764][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.12.02-04.01.52:823][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.12.02-04.01.52:886][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.12.02-04.01.52:950][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.12.02-04.01.53:010][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.02-04.01.53:069][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.02-04.01.53:134][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.02-04.01.53:189][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.02-04.01.53:249][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.02-04.01.53:307][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.02-04.01.53:366][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.02-04.01.53:425][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.02-04.01.53:482][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.02-04.01.53:539][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.02-04.01.53:666][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.02-04.01.53:666][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.02-04.01.53:705][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.02-04.01.53:816][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.02-04.01.53:853][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.02-04.01.53:913][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.02-04.01.53:970][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.02-04.01.54:028][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.02-04.01.54:089][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.02-04.01.54:089][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.02-04.01.54:605][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.02-04.01.54:919][  0]LogDerivedDataCache: Loaded boot cache 0.31s 64MB C:/Users/Kirby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.12.02-04.01.54:919][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kirby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.12.02-04.01.54:919][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.02-04.01.54:919][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.02-04.01.54:919][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.02-04.01.54:919][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.02-04.01.54:945][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.02-04.01.54:960][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kirby/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.02-04.01.56:051][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.02-04.01.56:067][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.02-04.01.56:354][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.12.02-04.01.56:419][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.12.02-04.01.56:474][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.12.02-04.01.56:474][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.12.02-04.01.56:474][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.02-04.01.57:661][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: finalproj, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 502500933
+[2016.12.02-04.01.57:752][  0]LogAssetRegistry: FAssetRegistry took 0.0333 seconds to start up
+[2016.12.02-04.01.57:833][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.049387 seconds
+[2016.12.02-04.01.57:843][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.12.02-04.01.57:843][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2016.12.02-04.01.57:843][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.02-04.01.57:923][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.02-04.01.58:950][  0]LogSlate: Using Freetype 2.6.0
+[2016.12.02-04.01.58:953][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.02-04.01.58:953][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.02-04.02.00:910][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.12.02-04.02.01:007][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.02-04.02.01:077][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.02-04.02.01:532][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.02-04.02.02:023][  0]SourceControl: Info Source control is disabled
+[2016.12.02-04.02.02:025][  0]SourceControl: Info Source control is disabled
+[2016.12.02-04.02.02:087][  0]SourceControl: Info Source control is disabled
+[2016.12.02-04.02.02:143][  0]SourceControl: Info Source control is disabled
+[2016.12.02-04.02.03:744][  0]LogEngine: Initializing Engine...
+[2016.12.02-04.02.03:747][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.02-04.02.04:088][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.02-04.02.04:108][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.02-04.02.04:216][  0]LogInit: FAudioDevice initialized.
+[2016.12.02-04.02.04:250][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Kirby/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.12.02-04.02.04:255][  0]LogInit: Texture streaming: Enabled
+[2016.12.02-04.02.04:486][  0]LogInit: Transaction tracking system initialized
+[2016.12.02-04.02.04:912][  0]BlueprintLog: New page: Editor Load
+[2016.12.02-04.02.06:043][  0]LocalizationService: Info Localization service is disabled
+[2016.12.02-04.02.06:857][  0]LogConsoleResponse:Display: 
+[2016.12.02-04.02.07:106][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.02-04.02.07:106][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.02-04.02.07:805][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Content/' took 0.02s
+[2016.12.02-04.02.08:289][  0]SourceControl: Info Source control is disabled
+[2016.12.02-04.02.08:291][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.02-04.02.08:293][  0]LightingResults: New page: Lighting Build
+[2016.12.02-04.02.08:344][  0]MapCheck: New page: Map Check
+[2016.12.02-04.02.08:344][  0]LightingResults: New page: Lighting Build
+[2016.12.02-04.02.09:039][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.12.02-04.02.09:068][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.02-04.02.09:072][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.02-04.02.09:117][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.138ms to complete.
+[2016.12.02-04.02.09:117][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.827
+[2016.12.02-04.02.09:389][  0]LogCollectionManager: Loaded 0 collections in 0.002686 seconds
+[2016.12.02-04.02.09:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Saved/Collections/' took 0.03s
+[2016.12.02-04.02.09:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Content/Developers/Kirby/Collections/' took 0.01s
+[2016.12.02-04.02.09:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kirby/Documents/GitHub/GDP_Final/Content/Collections/' took 0.01s
+[2016.12.02-04.02.09:529][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.12.02-04.02.09:544][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2205 classes and 434 folders.
+[2016.12.02-04.02.09:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.02-04.02.09:593][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2016.12.02-04.02.09:594][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 13 classes and 0 folders.
+[2016.12.02-04.02.09:660][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.12.02-04.02.09:796][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.12.02-04.02.09:857][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.12.02-04.02.09:981][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.02-04.02.10:000][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.02-04.02.10:089][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.12.02-04.02.10:090][  0]LogLoad: (Engine Initialization) Total time: 22.09 seconds
+[2016.12.02-04.02.10:090][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.32 seconds
+[2016.12.02-04.02.10:090][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.12.02-04.02.10:110][  0]LogOcInput: OculusInput pre-init called
+[2016.12.02-04.02.10:136][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.02-04.02.10:330][  0]LogRenderer: Reallocating scene render targets to support 804x340 NumSamples 1 (Frame:2).
+[2016.12.02-04.02.10:482][  1]LogAssetRegistry: Asset discovery search completed in 12.7610 seconds
+[2016.12.02-04.02.10:482][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.02-04.02.10:482][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.12.02-04.02.18:321][459]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
+[2016.12.02-04.02.18:322][459]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
+[2016.12.02-04.02.18:328][459]LogTexture:Display: Building textures: bob_R (BGRA8)
+[2016.12.02-04.02.18:336][459]LogEditorFactories: -- imported successfully
+[2016.12.02-04.03.10:434][186]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
+[2016.12.02-04.03.10:434][186]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
+[2016.12.02-04.03.10:444][186]LogTexture:Display: Building textures: bob_R (BGRA8)
+[2016.12.02-04.03.10:451][186]LogEditorFactories: -- imported successfully
+[2016.12.02-04.03.16:587][541]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (bob_R2)
+[2016.12.02-04.03.30:049][338]LogEditorViewport: Clicking on Actor (LMB): BP_RedEntrance_C (RedEntrance)
+[2016.12.02-04.05.27:119][512]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
+[2016.12.02-04.05.27:119][512]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
+[2016.12.02-04.05.27:122][512]LogTexture:Display: Building textures: bob_R (BGRA8)
+[2016.12.02-04.05.27:127][512]LogEditorFactories: -- imported successfully
+[2016.12.02-04.06.03:529][222]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
+[2016.12.02-04.06.03:530][222]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
+[2016.12.02-04.06.03:534][222]LogTexture:Display: Building textures: bob_R (BGRA8)
+[2016.12.02-04.06.03:539][222]LogEditorFactories: -- imported successfully
+[2016.12.02-04.06.24:485][949]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
+[2016.12.02-04.06.24:485][949]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
+[2016.12.02-04.06.24:487][949]LogTexture:Display: Building textures: bob_R (BGRA8)
+[2016.12.02-04.06.24:492][949]LogEditorFactories: -- imported successfully
+[2016.12.02-04.07.18:147][ 12]LogEditorFactories: Performing atomic reimport of [C:/Users/Kirby/Documents/Game Design/bob_R.png]
+[2016.12.02-04.07.18:147][ 12]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Kirby/Documents/Game Design/bob_R.png)
+[2016.12.02-04.07.18:150][ 12]LogTexture:Display: Building textures: bob_R (BGRA8)
+[2016.12.02-04.07.18:157][ 12]LogEditorFactories: -- imported successfully
+[2016.12.02-04.07.29:808][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Characters/bob_R" FILE="../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R.uasset" SILENT=true
+[2016.12.02-04.07.29:830][693]LogSavePackage: Save=4.43ms
+[2016.12.02-04.07.29:830][693]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/bob_R6251397049631707189168804BCD9F08.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R.uasset'
+[2016.12.02-04.07.29:835][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/Assets/Characters/bob_R.uasset
+[2016.12.02-04.07.35:087][992]LogSavePackage: Save=75.12ms
+[2016.12.02-04.07.35:087][992]LogSavePackage: Moving '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Saved/ThirdPersonExampleMapA55F8E6B4AA415D455F34791E9C1F7EA.tmp' to '../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.12.02-04.07.35:092][992]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kirby/Documents/GitHub/GDP_Final/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
